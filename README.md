@@ -1,7 +1,7 @@
 # Moneygate PHP SDK
 
 ![social_preview](docs/img/640_320.png)
-v1
+v123
 PHP SDK to interact with Moneygate API
 
 Moneygate API documentation available [here](https://docs.master.blowfish.api4ftx.cloud/)
