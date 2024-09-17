@@ -25,3 +25,5 @@ jobs:
         RIGHT_PRIVATE_KEY: "${{ secrets.RIGHT_PRIVATE_KEY }}"
         WRONG_PRIVATE_KEY: "${{ secrets.WRONG_PRIVATE_KEY }}"
         
+    - name: Update Packagist
+      run: curl -XPOST -H'content-type:application/json' 'https://packagist.org/api/update-package?username=misha.homi&apiToken=e4ee31b2810d1fa7c5138728ab3476c692248905' -d'{"repository":{"url":"https://packagist.org/packages/homitest/sdk_moneygate"}}'
